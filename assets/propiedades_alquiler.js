@@ -3,6 +3,10 @@ import { propiedades_alquiler } from './objetos.js';
 
 
 const alquiler = document.querySelector('#alquiler');
+const fumar = '<span class="text-success"><i class="fas fa-smoking"></i> Permitido fumar</span>';
+const nofumar = '<span class="text-danger"><i class="fas fa-smoking-ban"></i> No se permite fumar</span>';
+const mascotas = '<span class="text-success"><i class="fas fa-paw"></i> Mascotas permitidas</span>';
+const nomascotas = '<span class="text-danger"><i class="fa-solid fa-ban"></i> No se permiten mascotas</span>';
 
 
 let html = `
@@ -14,7 +18,8 @@ let html = `
         if (contalquiler === 50) {
             break;
         }
-
+        const smokeStatus = palquiler.smoke ? fumar : nofumar;
+        const petsStatus = palquiler.pets ? mascotas : nomascotas;
         html += `
             <div class="col-md-4 mb-4">
                 <div class="card">
@@ -25,8 +30,8 @@ let html = `
                         <p><i class="fas fa-map-marker-alt"></i> ${palquiler.ubicacion}</p>
                         <p><i class="fas fa-bed"></i> ${palquiler.habitaciones} Habitaciones | <i class="fas fa-bath"></i> ${palquiler.banos} Baños</p>
                         <p><i class="fas fa-dollar-sign"></i>${palquiler.costo}</p>
-                        <p class="text-danger"><i class="fas fa-smoking-ban"></i> ${palquiler.smote}</p>
-                        <p class="text-danger"><i class="fa-solid fa-ban"></i> ${palquiler.pets}</p>
+                        <p>${smokeStatus}</p>
+                        <p>${petsStatus}</p>
                     </div>
                 </div>
             </div>
