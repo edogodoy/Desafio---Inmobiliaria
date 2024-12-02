@@ -36,6 +36,42 @@ export const propiedades_venta = [
     },
 
     {
+        nombre: 'Casa de campo con piscina',
+        src: 'https://images.homify.com/v1443654352/p/photo/image/960352/Imativa_Casa_Carrasco_0013.jpg',
+        descripcion: 'Casa rústica con amplio jardín y piscina privada en un entorno tranquilo.',
+        ubicacion: '123 Camino del Campo, Ruralville, CA 12345',
+        habitaciones: 3,
+        banos: 2,
+        costo: 2500,
+        smoke: false,
+        pets: true
+    },
+    
+    {
+        nombre: 'Loft moderno en el centro de la ciudad',
+        src: 'https://isinergia.cl/wp-content/uploads/2023/02/altavista_slider3.jpg',
+        descripcion: 'Loft de diseño moderno con amplios ventanales y vistas panorámicas de la ciudad.',
+        ubicacion: '456 Avenida Principal, Cityville, NY 56789',
+        habitaciones: 1,
+        banos: 1,
+        costo: 3000,
+        smoke: false,
+        pets: false
+    },
+    
+    {
+        nombre: 'Apartamento familiar en zona residencial',
+        src: 'https://planner5d.com/blog/content/images/2024/05/disenos.departamentos.software.1.jpg',
+        descripcion: 'Apartamento espacioso y luminoso ideal para familias, cerca de parques y escuelas.',
+        ubicacion: '789 Calle de los Robles, Suburbia, CA 98765',
+        habitaciones: 3,
+        banos: 2,
+        costo: 2200,
+        smoke: false,
+        pets: true
+    },
+
+    {
         nombre: 'Apartamento de lujo en zona exclusiva',
         src: 'https://fotos.perfil.com/2018/09/21/trim/950/534/nueva-york-09212018-366965.jpg',
         descripcion: 'Este apartamento de lujo está ubicado en una exclusiva zona residencial',
@@ -82,6 +118,42 @@ export const propiedades_alquiler = [
         habitaciones: 2,
         banos: 2,
         costo: 2200,
+        smoke: false,
+        pets: false
+    },
+
+    {
+        nombre: 'Apartamento familiar en zona residencial',
+        src: 'https://planner5d.com/blog/content/images/2024/05/disenos.departamentos.software.1.jpg',
+        descripcion: 'Apartamento espacioso y luminoso ideal para familias, cerca de parques y escuelas.',
+        ubicacion: '789 Calle de los Robles, Suburbia, CA 98765',
+        habitaciones: 3,
+        banos: 2,
+        costo: 2200,
+        smoke: false,
+        pets: true
+    },
+
+    {
+        nombre: 'Casa de campo con piscina',
+        src: 'https://images.homify.com/v1443654352/p/photo/image/960352/Imativa_Casa_Carrasco_0013.jpg',
+        descripcion: 'Casa rústica con amplio jardín y piscina privada en un entorno tranquilo.',
+        ubicacion: '123 Camino del Campo, Ruralville, CA 12345',
+        habitaciones: 3,
+        banos: 2,
+        costo: 2500,
+        smoke: false,
+        pets: true
+    },
+    
+    {
+        nombre: 'Loft moderno en el centro de la ciudad',
+        src: 'https://isinergia.cl/wp-content/uploads/2023/02/altavista_slider3.jpg',
+        descripcion: 'Loft de diseño moderno con amplios ventanales y vistas panorámicas de la ciudad.',
+        ubicacion: '456 Avenida Principal, Cityville, NY 56789',
+        habitaciones: 1,
+        banos: 1,
+        costo: 3000,
         smoke: false,
         pets: false
     },
